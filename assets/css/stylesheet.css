@@ -1,0 +1,56 @@
+body {
+    font-size: 14px;
+    background-color: #f1f3f6;
+    color: #212121;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.card {
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+}
+textarea {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+    border: 3px solid transparent;
+    height: 65vh;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+#suggestions {
+    list-style: none;
+    padding: 0;
+}
+
+#suggestions li {
+    padding: 3px 5px;
+    border: 1px dashed lightgray;
+    margin-right: 3px;
+    background: lightgray;
+    border-radius: 3px;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 2px;
+    cursor: pointer;
+    color: #010022;
+}
+
+#suggestions li:hover {
+    border: 1px dashed black;
+    background: transparent;
+    cursor: pointer;
+}
+
+.main-text:focus {
+    border: 3px solid lightslategrey;
+}
